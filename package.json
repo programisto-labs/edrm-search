@@ -24,7 +24,7 @@
   "homepage": "https://github.com/programisto-labs/edrm-search#readme",
   "description": "EDRM module for full-text search via OpenSearch/Elasticsearch, synced from Endurance schema events",
   "dependencies": {
-    "@programisto/endurance": "^1.0.8",
+    "@programisto/endurance": "^1.1.0",
     "@opensearch-project/opensearch": "^3.5.1"
   },
   "devDependencies": {
