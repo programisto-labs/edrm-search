@@ -21,11 +21,6 @@ declare module '@programisto/endurance' {
     static getInstance(): EnduranceAuthMiddleware;
   }
 
-  export abstract class EnduranceSearchProvider {
-    abstract isSearchEnabled(): boolean;
-    abstract search(collection: string, options: SearchOptions): Promise<SearchResult>;
-  }
-
   export interface SearchOptions {
     collection: string;
     q?: string;
@@ -38,6 +33,11 @@ declare module '@programisto/endurance' {
 
   export interface SearchResult {
     hits: Array<{ _id: string; _source: object }>;
+  }
+
+  export abstract class EnduranceSearchProvider {
+    abstract isSearchEnabled(): boolean;
+    abstract search(collection: string, options: SearchOptions): Promise<SearchResult>;
   }
 
   export const EnduranceSearchMiddleware: {
