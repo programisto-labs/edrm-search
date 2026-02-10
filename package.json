@@ -28,7 +28,7 @@
     "@opensearch-project/opensearch": "^3.5.1"
   },
   "devDependencies": {
-    "@commitlint/config-conventional": "^19.8.1",
+    "@commitlint/config-conventional": "^20.4.1",
     "@types/express": "^5.0.6",
     "@types/node": "^22.0.0",
     "@typescript-eslint/eslint-plugin": "^8.35.0",
