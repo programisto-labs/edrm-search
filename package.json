@@ -33,7 +33,7 @@
     "@types/node": "^25.2.3",
     "@typescript-eslint/eslint-plugin": "^8.35.0",
     "@typescript-eslint/parser": "^8.35.0",
-    "eslint": "^8.57.1",
+    "eslint": "^10.0.0",
     "eslint-config-standard": "^17.1.0",
     "eslint-plugin-import": "^2.32.0",
     "eslint-plugin-n": "^16.6.2",
