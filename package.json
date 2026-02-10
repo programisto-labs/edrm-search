@@ -25,7 +25,7 @@
   "description": "EDRM module for full-text search via OpenSearch/Elasticsearch, synced from Endurance schema events",
   "dependencies": {
     "@programisto/endurance": "^1.1.0",
-    "@opensearch-project/opensearch": "^2.10.0"
+    "@opensearch-project/opensearch": "^3.5.1"
   },
   "devDependencies": {
     "@commitlint/config-conventional": "^19.8.1",
